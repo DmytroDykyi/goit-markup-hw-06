@@ -55,11 +55,20 @@
             </li>
           </ul>
         </address>
-        <button class="address-button" type="button">
+        <button class="address-button" type="button" data-menu-open>
           <svg class="address-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-solid_menu"></use>
           </svg>
         </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" data-menu-close>Close</button>
+          <nav class="mobile-menu-nav">Navigation</nav>
+          <address>Address</address>
+          <div>Soc list</div>
+          <!-- Тут повинні бути ul i li -->
+        </div>
       </div>
     </header>
 
@@ -619,5 +628,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

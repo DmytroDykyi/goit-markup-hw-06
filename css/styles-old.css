@@ -1,15 +1,4 @@
 /* header of site */
-
-.header-logo {
-  margin-right: 76px;
-}
-
-.nav-link:hover::after,
-.nav-link:focus::after,
-.nav-link.current::after {
-  opacity: 1;
-}
-
 .nav-item {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #404bbf;
